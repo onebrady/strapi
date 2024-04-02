@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trailers",
+  "info": {
+    "singularName": "trailer",
+    "pluralName": "trailers",
+    "displayName": "Ranco Trailers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Main_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
